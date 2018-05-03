@@ -114,3 +114,9 @@ NAME = input("What\'s your name?")
 print("Hello, {}".format(NAME))
 ``` 
 
+## Create our own methods in Pyhton 
+````python
+def age_in_seconds():
+user_age = input("Input Your age: ")
+print("You have lived for {} seconds ".format(user_age*360*24*60*60))
+````
